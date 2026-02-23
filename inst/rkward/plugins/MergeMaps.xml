@@ -1,0 +1,38 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="MergeMaps.js" />
+	<help file="MergeMaps.rkh" />
+	<dependencies rkward_min_version="0.7.5">
+		<package name="sf" />
+		<package name="geodata" />
+		<package name="dplyr" />
+	</dependencies>
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="Merge Maps">
+		<row id="row_vS2NMPCRSC">
+			<varselector id="vs_merge" />
+			<column id="clm_vS2NMPCRSC">
+				<varslot id="vars_merge" label="Select maps to merge (2 or more)" source="vs_merge" classes="sf data.frame" required="true" multi="true" />
+				<text id="txt_bNMPCRSC">
+					<b>
+						Note:
+					</b>
+					Maps must have the same geometry type (e.g., Polygon) and Coordinate Reference System (CRS).
+				</text>
+				<stretch />
+				<saveobject label="Save merged map as" checkable="true" checked="true" initial="merged_map" id="save_mg_obj" />
+			</column>
+		</row>
+	</dialog>
+</document>

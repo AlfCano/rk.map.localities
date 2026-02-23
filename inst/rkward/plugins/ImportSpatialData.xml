@@ -1,0 +1,29 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="ImportSpatialData.js" />
+	<help file="ImportSpatialData.rkh" />
+	<dependencies rkward_min_version="0.7.5">
+		<package name="sf" />
+		<package name="geodata" />
+		<package name="dplyr" />
+	</dependencies>
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="Import Spatial Data">
+		<column id="clm_bSSFSHPGPK">
+			<browser label="Select Spatial File (SHP, GPKG, GEOJSON)" type="file" id="browser_imp" filter="*.shp *.gpkg *.geojson *.kml" />
+			<stretch />
+			<saveobject label="Save as R Object" checkable="true" checked="true" initial="imported_map" id="save_imp_obj" />
+		</column>
+	</dialog>
+</document>

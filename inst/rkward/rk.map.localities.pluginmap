@@ -18,10 +18,10 @@
 	-->
 	<about
 		name="rk.map.localities"
-		shortinfo="Downloads Admin Level 2 (Municipalities/Counties) spatial data using the 'geodata' package."
-		longinfo="Downloads Admin Level 2 (Municipalities/Counties) spatial data using the 'geodata' package."
-		version="0.0.1"
-		releasedate="2026-02-22"
+		shortinfo="Tools for downloading Admin Level 2 spatial data (geodata), plus importing, exporting, and merging 'sf' objects."
+		longinfo="Tools for downloading Admin Level 2 spatial data (geodata), plus importing, exporting, and merging 'sf' objects."
+		version="0.0.2"
+		releasedate="2026-02-23"
 		url="https://github.com/AlfCano/rk.map.localities"
 		license="GPL (&gt;= 3)"
 	>
@@ -40,6 +40,27 @@
 	/>
 	<components>
 		<component
+			id="cmp_DownlodMncpltsImprtSptlDt"
+			label="Import Spatial Data"
+			type="standard"
+			file="plugins/ImportSpatialData.xml"
+		>
+		</component>
+		<component
+			id="cmp_DownlodMncpltsExprtSptlDt"
+			label="Export Spatial Data"
+			type="standard"
+			file="plugins/ExportSpatialData.xml"
+		>
+		</component>
+		<component
+			id="cmp_DownloadMunicipaltsMrgMps"
+			label="Merge Maps"
+			type="standard"
+			file="plugins/MergeMaps.xml"
+		>
+		</component>
+		<component
 			id="cmp_DownldMncpltsDwnldMncplts"
 			label="Download Municipalities"
 			type="standard"
@@ -48,6 +69,45 @@
 		</component>
 	</components>
 	<hierarchy>
+		<menu
+			id="plots"
+			label="Plots"
+		>
+			<menu
+				id="Maps"
+				label="Maps"
+			>
+				<entry
+					component="cmp_DownlodMncpltsImprtSptlDt"
+				/>
+			</menu>
+		</menu>
+		<menu
+			id="plots"
+			label="Plots"
+		>
+			<menu
+				id="Maps"
+				label="Maps"
+			>
+				<entry
+					component="cmp_DownlodMncpltsExprtSptlDt"
+				/>
+			</menu>
+		</menu>
+		<menu
+			id="plots"
+			label="Plots"
+		>
+			<menu
+				id="Maps"
+				label="Maps"
+			>
+				<entry
+					component="cmp_DownloadMunicipaltsMrgMps"
+				/>
+			</menu>
+		</menu>
 		<menu
 			id="plots"
 			label="Plots"

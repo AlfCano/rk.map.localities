@@ -1,87 +1,90 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: rk.map.localities 0.0.1\n"
+"Project-Id-Version: rk.map.localities 0.0.2\n"
 "Report-Msgid-Bugs-To: alfonso.cano@correo.buap.mx\n"
-"POT-Creation-Date: 2026-02-22 22:00-0600\n"
-"PO-Revision-Date: 2026-02-22 22:05-0600\n"
+"POT-Creation-Date: 2026-02-23 13:55-0600\n"
+"PO-Revision-Date: 2026-02-23 13:55-0600\n"
 "Last-Translator: Alfonso Cano <alfonso.cano@correo.buap.mx>\n"
-"Language-Team: Spanish <es@li.org>\n"
+"Language-Team: Spanish <rkward-devel@kde.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-# Metadata & Menu
 msgid "Download Municipalities"
 msgstr "Descargar Municipios"
 
-msgid "Maps"
-msgstr "Mapas"
-
-msgid "Downloads Admin Level 2 (Municipalities/Counties) spatial data using the 'geodata' package. Compatible with rk.rnaturalearth plotters."
-msgstr "Descarga datos espaciales de Nivel Admin 2 (Municipios/Condados) usando el paquete 'geodata'. Compatible con los graficadores de rk.rnaturalearth."
-
-# Main Dialog
 msgid "Download Municipalities (Admin 2)"
-msgstr "Descargar Municipios (Admin 2)"
+msgstr "Descargar Municipios (Nivel Admin 2)"
 
-msgid "1. Select Country"
-msgstr "1. Seleccionar País"
+msgid "Tools for downloading Admin Level 2 spatial data (geodata), plus importing, exporting, and merging 'sf' objects."
+msgstr "Herramientas para descargar datos espaciales Nivel 2 (geodata), importar, exportar y unir objetos 'sf'."
 
 msgid "Select Country"
 msgstr "Seleccionar País"
 
-msgid "Or custom ISO-3 Code (e.g. JPN)"
-msgstr "O código ISO-3 personalizado (ej. JPN)"
-
-msgid "2. Filter Region"
-msgstr "2. Filtrar Región"
+msgid "Or custom ISO-3 Code"
+msgstr "O código ISO-3 personalizado"
 
 msgid "Filter by State/Region Name"
 msgstr "Filtrar por nombre de Estado/Región"
 
-msgid "<b>Note:</b> Type the exact name of the region (Admin Level 1) as it appears in GADM (e.g., 'Puebla', 'California', 'Cataluña'). Leave empty to download the whole country (Warning: Heavy)."
-msgstr "<b>Nota:</b> Escriba el nombre exacto de la región (Nivel Admin 1) tal como aparece en GADM (ej. 'Puebla', 'California', 'Cataluña'). Deje vacío para descargar todo el país (Advertencia: Archivo pesado)."
+msgid "<b>Note:</b> Type the exact name of the region (Admin Level 1) as it appears in GADM. Leave empty to download the whole country."
+msgstr "<b>Nota:</b> Escriba el nombre exacto de la región (Nivel 1) tal como aparece en GADM. Deje vacío para descargar todo el país."
 
 msgid "Save Map Object As (sf)"
-msgstr "Guardar Objeto de Mapa Como (sf)"
+msgstr "Guardar Objeto de Mapa como (sf)"
 
-# Countries List
-msgid "Mexico (MEX)"
-msgstr "México (MEX)"
+msgid "1. Select Country"
+msgstr "1. Seleccionar País"
 
-msgid "United States (USA)"
-msgstr "Estados Unidos (USA)"
+msgid "2. Filter Region"
+msgstr "2. Filtrar Región"
 
-msgid "Canada (CAN)"
-msgstr "Canadá (CAN)"
+msgid "Import Spatial Data"
+msgstr "Importar Datos Espaciales"
 
-msgid "Brazil (BRA)"
-msgstr "Brasil (BRA)"
+msgid "Select Spatial File (SHP, GPKG, GEOJSON)"
+msgstr "Seleccionar Archivo Espacial (SHP, GPKG, GEOJSON)"
 
-msgid "Argentina (ARG)"
-msgstr "Argentina (ARG)"
+msgid "Save as R Object"
+msgstr "Guardar como Objeto R"
 
-msgid "Colombia (COL)"
-msgstr "Colombia (COL)"
+msgid "Export Spatial Data"
+msgstr "Exportar Datos Espaciales"
 
-msgid "Chile (CHL)"
-msgstr "Chile (CHL)"
+msgid "Select sf object to export"
+msgstr "Seleccionar objeto sf para exportar"
 
-msgid "Peru (PER)"
-msgstr "Perú (PER)"
+msgid "Save to File"
+msgstr "Guardar en Archivo"
 
-msgid "Spain (ESP)"
-msgstr "España (ESP)"
+msgid "Overwrite if file exists (delete_dsn = TRUE)"
+msgstr "Sobrescribir si el archivo existe (delete_dsn = TRUE)"
 
-msgid "France (FRA)"
-msgstr "Francia (FRA)"
+msgid "Merge Maps"
+msgstr "Unir Mapas"
 
-msgid "Germany (DEU)"
-msgstr "Alemania (DEU)"
+msgid "Select maps to merge (2 or more)"
+msgstr "Seleccionar mapas para unir (2 o más)"
 
-msgid "Italy (ITA)"
-msgstr "Italia (ITA)"
+msgid "Save merged map as"
+msgstr "Guardar mapa unido como"
 
-msgid "United Kingdom (GBR)"
-msgstr "Reino Unido (GBR)"
+msgid "<b>Note:</b> Maps must have the same geometry type (e.g., Polygon) and Coordinate Reference System (CRS)."
+msgstr "<b>Nota:</b> Los mapas deben tener el mismo tipo de geometría (ej. Polígono) y Sistema de Referencia de Coordenadas (CRS)."
+
+# --- Generated Output Strings ---
+
+msgid "Municipalities Map Downloaded"
+msgstr "Mapa de Municipios Descargado"
+
+msgid "Map Columns Available (For Matching)"
+msgstr "Columnas del Mapa Disponibles (Para Cruce)"
+
+msgid "Spatial Data Import"
+msgstr "Importación de Datos Espaciales"
+
+msgid "Spatial Data Merge"
+msgstr "Unión de Datos Espaciales"

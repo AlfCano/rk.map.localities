@@ -1,0 +1,33 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="ExportSpatialData.js" />
+	<help file="ExportSpatialData.rkh" />
+	<dependencies rkward_min_version="0.7.5">
+		<package name="sf" />
+		<package name="geodata" />
+		<package name="dplyr" />
+	</dependencies>
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="Export Spatial Data">
+		<row id="row_vSSFOTRUET">
+			<varselector id="vs_export" />
+			<column id="clm_vSSFOTRUET">
+				<varslot id="var_export" label="Select sf object to export" source="vs_export" classes="sf data.frame" required="true" />
+				<browser label="Save to File" type="savefile" id="browser_exp" filter="*.shp *.gpkg *.geojson" />
+				<checkbox id="chk_over" label="Overwrite if file exists (delete_dsn = TRUE)" value="TRUE" />
+				<stretch />
+			</column>
+		</row>
+	</dialog>
+</document>

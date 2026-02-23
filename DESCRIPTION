@@ -1,14 +1,14 @@
 Package: rk.map.localities
 Type: Package
-Title: Downloads Admin Level 2 (Municipalities/Counties) spatial data
-        using the 'geodata' package.
-Version: 0.0.1
-Date: 2026-02-22
+Title: Tools for downloading Admin Level 2 spatial data (geodata), plus
+        importing, exporting, and merging 'sf' objects.
+Version: 0.0.2
+Date: 2026-02-23
 Author: Alfonso Cano
 Maintainer: Alfonso Cano <alfonso.cano@correo.buap.mx>
 Enhances: rkward
-Description: Downloads Admin Level 2 (Municipalities/Counties) spatial
-        data using the 'geodata' package.
+Description: Tools for downloading Admin Level 2 spatial data
+        (geodata), plus importing, exporting, and merging 'sf' objects.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyLoad: yes
