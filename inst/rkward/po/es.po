@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rk.map.localities 0.0.1\n"
+"Report-Msgid-Bugs-To: alfonso.cano@correo.buap.mx\n"
+"POT-Creation-Date: 2026-02-22 22:00-0600\n"
+"PO-Revision-Date: 2026-02-22 22:05-0600\n"
+"Last-Translator: Alfonso Cano <alfonso.cano@correo.buap.mx>\n"
+"Language-Team: Spanish <es@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Metadata & Menu
+msgid "Download Municipalities"
+msgstr "Descargar Municipios"
+
+msgid "Maps"
+msgstr "Mapas"
+
+msgid "Downloads Admin Level 2 (Municipalities/Counties) spatial data using the 'geodata' package. Compatible with rk.rnaturalearth plotters."
+msgstr "Descarga datos espaciales de Nivel Admin 2 (Municipios/Condados) usando el paquete 'geodata'. Compatible con los graficadores de rk.rnaturalearth."
+
+# Main Dialog
+msgid "Download Municipalities (Admin 2)"
+msgstr "Descargar Municipios (Admin 2)"
+
+msgid "1. Select Country"
+msgstr "1. Seleccionar País"
+
+msgid "Select Country"
+msgstr "Seleccionar País"
+
+msgid "Or custom ISO-3 Code (e.g. JPN)"
+msgstr "O código ISO-3 personalizado (ej. JPN)"
+
+msgid "2. Filter Region"
+msgstr "2. Filtrar Región"
+
+msgid "Filter by State/Region Name"
+msgstr "Filtrar por nombre de Estado/Región"
+
+msgid "<b>Note:</b> Type the exact name of the region (Admin Level 1) as it appears in GADM (e.g., 'Puebla', 'California', 'Cataluña'). Leave empty to download the whole country (Warning: Heavy)."
+msgstr "<b>Nota:</b> Escriba el nombre exacto de la región (Nivel Admin 1) tal como aparece en GADM (ej. 'Puebla', 'California', 'Cataluña'). Deje vacío para descargar todo el país (Advertencia: Archivo pesado)."
+
+msgid "Save Map Object As (sf)"
+msgstr "Guardar Objeto de Mapa Como (sf)"
+
+# Countries List
+msgid "Mexico (MEX)"
+msgstr "México (MEX)"
+
+msgid "United States (USA)"
+msgstr "Estados Unidos (USA)"
+
+msgid "Canada (CAN)"
+msgstr "Canadá (CAN)"
+
+msgid "Brazil (BRA)"
+msgstr "Brasil (BRA)"
+
+msgid "Argentina (ARG)"
+msgstr "Argentina (ARG)"
+
+msgid "Colombia (COL)"
+msgstr "Colombia (COL)"
+
+msgid "Chile (CHL)"
+msgstr "Chile (CHL)"
+
+msgid "Peru (PER)"
+msgstr "Perú (PER)"
+
+msgid "Spain (ESP)"
+msgstr "España (ESP)"
+
+msgid "France (FRA)"
+msgstr "Francia (FRA)"
+
+msgid "Germany (DEU)"
+msgstr "Alemania (DEU)"
+
+msgid "Italy (ITA)"
+msgstr "Italia (ITA)"
+
+msgid "United Kingdom (GBR)"
+msgstr "Reino Unido (GBR)"

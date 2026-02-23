@@ -1,0 +1,52 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="DownloadMunicipalities.js" />
+	<help file="DownloadMunicipalities.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="Download Municipalities (Admin 2)">
+		<column id="clm_f1SC1SCSCM">
+			<frame label="1. Select Country" id="frm_1SlctCnt">
+				<dropdown id="drp_iso" label="Select Country">
+					<option label="Mexico (MEX)" value="MEX" checked="true" />
+					<option label="United States (USA)" value="USA" />
+					<option label="Canada (CAN)" value="CAN" />
+					<option label="Brazil (BRA)" value="BRA" />
+					<option label="Argentina (ARG)" value="ARG" />
+					<option label="Colombia (COL)" value="COL" />
+					<option label="Spain (ESP)" value="ESP" />
+					<option label="France (FRA)" value="FRA" />
+					<option label="Germany (DEU)" value="DEU" />
+					<option label="Italy (ITA)" value="ITA" />
+					<option label="United Kingdom (GBR)" value="GBR" />
+				</dropdown>
+				<input label="Or custom ISO-3 Code" id="inp_iso_custom" size="small" />
+			</frame>
+			<frame label="2. Filter Region" id="frm_2FltrRgn">
+				<text id="txt_bNTAL1GA">
+					<b>
+						Note:
+					</b>
+					Type the exact name of the region (Admin Level 1) as it appears in GADM. Leave empty to download the whole country.
+				</text>
+				<input label="Filter by State/Region Name" id="inp_state_name" />
+			</frame>
+			<stretch />
+			<saveobject label="Save Map Object As (sf)" checkable="true" checked="true" initial="map_muni" id="save_obj" />
+		</column>
+	</dialog>
+</document>

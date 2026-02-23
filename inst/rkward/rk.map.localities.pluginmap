@@ -1,0 +1,77 @@
+<!DOCTYPE
+	rkpluginmap
+>
+<document
+	base_prefix=""
+	namespace="DownloadMunicipalities"
+	id="DownloadMunicipalities_rkward"
+	po_id="DownloadMunicipalities_rkward"
+	priority="medium"
+>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<about
+		name="rk.map.localities"
+		shortinfo="Downloads Admin Level 2 (Municipalities/Counties) spatial data using the 'geodata' package."
+		longinfo="Downloads Admin Level 2 (Municipalities/Counties) spatial data using the 'geodata' package."
+		version="0.0.1"
+		releasedate="2026-02-22"
+		url="https://github.com/AlfCano/rk.map.localities"
+		license="GPL (&gt;= 3)"
+	>
+		<author
+			given="Alfonso"
+			family="Cano"
+			email="alfonso.cano@correo.buap.mx"
+			role="aut, cre"
+		/>
+	</about>
+	<require
+		map="rkward::menu"
+	/>
+	<require
+		map="rkward::embedded"
+	/>
+	<components>
+		<component
+			id="cmp_DownldMncpltsDwnldMncplts"
+			label="Download Municipalities"
+			type="standard"
+			file="plugins/DownloadMunicipalities.xml"
+		>
+		</component>
+	</components>
+	<hierarchy>
+		<menu
+			id="plots"
+			label="Plots"
+		>
+			<menu
+				id="Maps"
+				label="Maps"
+			>
+				<entry
+					component="cmp_DownldMncpltsDwnldMncplts"
+				/>
+			</menu>
+		</menu>
+	</hierarchy>
+	<!--
+		<context
+			id="x11"
+		>
+		</context>
+	-->
+	<!--
+		<context
+			id="import"
+		>
+		</context>
+	-->
+</document>

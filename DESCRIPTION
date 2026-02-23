@@ -1,0 +1,17 @@
+Package: rk.map.localities
+Type: Package
+Title: Downloads Admin Level 2 (Municipalities/Counties) spatial data
+        using the 'geodata' package.
+Version: 0.0.1
+Date: 2026-02-22
+Author: Alfonso Cano
+Maintainer: Alfonso Cano <alfonso.cano@correo.buap.mx>
+Enhances: rkward
+Description: Downloads Admin Level 2 (Municipalities/Counties) spatial
+        data using the 'geodata' package.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyLoad: yes
+URL: https://github.com/AlfCano/rk.map.localities
+Authors@R: person(given="Alfonso", family="Cano",
+        email="alfonso.cano@correo.buap.mx", role=c("aut", "cre"))
