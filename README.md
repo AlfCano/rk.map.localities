@@ -21,7 +21,7 @@ It is designed to work seamlessly as a data provider for the **rk.rnaturalearth*
 *   **State/Region Filter:** Instead of forcing you to download an entire country (which can be heavy and slow), the plugin allows you to specify a **State Name** (e.g., "Puebla", "California", "Bavaria").
 *   **Automatic Subsetting:** It downloads the country, extracts only the requested state's municipalities, and returns a clean, lightweight `sf` object ready for plotting.
 
-    <img src="screenshots/example1.png" alt="Downloading municipalities" width="100%">
+    <img src="screenshots/example1.png" alt="Downloading municipalities" width="50%">
 
 ### 3. Ecosystem Compatibility
 *   **Plug & Play:** The output objects (`sf`) are fully compatible with **rk.rnaturalearth**'s "Plot Continuous Map" and "Plot Categorical Map" tools.
