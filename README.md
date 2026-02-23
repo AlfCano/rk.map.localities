@@ -24,6 +24,8 @@ It is designed to work seamlessly as the "Data Provider" for the **rk.rnaturalea
 *   **Export:** Save your modified or subsetted maps to standard formats (`.shp`, `.gpkg`, etc.) for use in QGIS or ArcGIS.
 *   **Merge Maps:** Combine multiple map objects (e.g., "Puebla" + "Tlaxcala") into a single regional map using `bind_rows`.
 
+<img src="screenshots/example3.png" alt="Downloading municipalities" width="95%">
+
 ### 3. Ecosystem Compatibility
 *   **Plug & Play:** The output objects (`sf`) are fully optimized for **rk.rnaturalearth**'s Plotting tools.
 *   **Standardized Output:** GADM downloads include standard columns (`NAME_1` for State, `NAME_2` for Municipality) to make data joining consistent.
@@ -116,7 +118,7 @@ if (exists("map_puebla")) {
 6.  **Value Column:** `PovertyRate`.
 7.  **Click Submit.**
 
-    <img src="screenshots/example2.png" alt="Ploting fake data" width="100%">
+    <img src="screenshots/example2.png" alt="Ploting fake data" width="95%">
 
 ## 🛠️ Dependencies
 
