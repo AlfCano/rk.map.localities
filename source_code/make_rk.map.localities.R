@@ -6,7 +6,7 @@ local({
   rkwarddev.required("0.08-1")
 
   plugin_name <- "rk.map.localities"
-  plugin_ver <- "0.0.2" # Frozen
+  plugin_ver <- "0.0.3"
 
   package_about <- rk.XML.about(
     name = plugin_name,
@@ -201,11 +201,11 @@ local({
     components = list(comp_imp, comp_exp, comp_mrg),
     pluginmap = list(
         name = "Download Municipalities",
-        hierarchy = list("plots", "Maps")
+        hierarchy = list("plots", "Maps", "Download")
     ),
     create = c("pmap", "xml", "js", "desc", "rkh"),
     load = TRUE, overwrite = TRUE, show = FALSE
   )
 
-  cat("\nPlugin 'rk.map.localities' (v0.0.2) generated successfully.\n")
+  cat("\nPlugin 'rk.map.localities' (v0.0.3) generated successfully.\n")
 })

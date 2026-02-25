@@ -1,6 +1,6 @@
 # rk.map.localities: Spatial Data Manager for RKWard
 
-![Version](https://img.shields.io/badge/Version-0.0.2-blue.svg)
+![Version](https://img.shields.io/badge/Version-0.0.3-blue.svg)
 ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
 ![RKWard](https://img.shields.io/badge/Platform-RKWard-green)
 [![R Linter](https://github.com/AlfCano/rk.map.localities/actions/workflows/lintr.yml/badge.svg)](https://github.com/AlfCano/rk.map.localities/actions/workflows/lintr.yml)
@@ -23,8 +23,6 @@ It is designed to work seamlessly as the "Data Provider" for the **rk.rnaturalea
 *   **Import:** Load external spatial files (`.shp`, `.gpkg`, `.geojson`, `.kml`) directly into RKWard as `sf` objects.
 *   **Export:** Save your modified or subsetted maps to standard formats (`.shp`, `.gpkg`, etc.) for use in QGIS or ArcGIS.
 *   **Merge Maps:** Combine multiple map objects (e.g., "Puebla" + "Tlaxcala") into a single regional map using `bind_rows`.
-
-<img src="screenshots/example3.png" alt="Downloading municipalities" width="95%">
 
 ### 3. Ecosystem Compatibility
 *   **Plug & Play:** The output objects (`sf`) are fully optimized for **rk.rnaturalearth**'s Plotting tools.
@@ -79,10 +77,12 @@ The interface is fully localized to match your RKWard language settings:
 
 Once installed, find the tools under: **`Plots` -> `Maps`**
 
-1.  **Download Municipalities:** Fetch GADM data.
+1.  **Download -> Download Municipalities:** Fetch GADM data.
 2.  **Import Spatial Data:** Load external files.
 3.  **Export Spatial Data:** Save `sf` objects to disk.
 4.  **Merge Maps:** Combine regions.
+
+ <img src="screenshots/example3.png" alt="Merge maps" width="90%">
 
 ## 🎓 Quick Start Example
 
@@ -118,7 +118,7 @@ if (exists("map_puebla")) {
 6.  **Value Column:** `PovertyRate`.
 7.  **Click Submit.**
 
-    <img src="screenshots/example2.png" alt="Ploting fake data" width="95%">
+    <img src="screenshots/example2.png" alt="Ploting fake data" width="90%">
 
 ## 🛠️ Dependencies
 

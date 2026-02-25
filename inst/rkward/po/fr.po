@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: rk.map.localities 0.0.2\n"
+"Project-Id-Version: rk.map.localities 0.0.3\n"
 "Report-Msgid-Bugs-To: alfonso.cano@correo.buap.mx\n"
 "POT-Creation-Date: 2026-02-23 13:55-0600\n"
 "PO-Revision-Date: 2026-02-23 13:55-0600\n"
@@ -14,6 +14,9 @@ msgstr ""
 
 msgid "Download Municipalities"
 msgstr "Télécharger les Municipalités"
+
+msgid "Download"
+msgstr "Télécharger"
 
 msgid "Download Municipalities (Admin 2)"
 msgstr "Télécharger les Municipalités (Niveau Admin 2)"
